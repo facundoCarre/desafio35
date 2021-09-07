@@ -1,0 +1,33 @@
+<style>
+    .table td, .table th {
+        vertical-align: middle;
+    }
+    hr {
+        background-color: #eee;
+    }
+    .jumbotron {
+        min-height: 100vh;
+        border-radius: 15px;
+    }
+    .tabla{
+      border-radius: 15px;
+      background-color: grey;
+    }
+    .table-dark{
+      background-color: grey !important;
+    }
+</style>
+<div class="container">
+  <div class="formulario">
+    <div class="jumbotron">
+      <h1>Error usuario o contraseña incorrecta</h1>
+      
+    <form action="/logout" method="GET" >
+          <div class="d-grid gap-2 btncontainer">
+        <button type="submit" class="btn btn-primary">Log out</button>
+      </div>
+    </form>
+
+    </div>
+  </div>
+</div>
